@@ -117,10 +117,7 @@ header ul{
                 header nav li a:hover{
                     color: #404bbf;
                 }
-                header nav li a.focus{
-                    color: #404bbf;
-                }
-                navbar-list-item:active{
+                header nav li navbar-list-item:active{
                     color: #404bbf;
                 }
     header .contact-info{
@@ -145,10 +142,7 @@ header ul{
             header .contact-info li a:hover{
                 color: #404bbf;
             }
-            header .contact-info li a.focus{
-                color: #404bbf;
-            }
-            address-a:active{
+            header .contact-info li .address-a:active{
                 color: #404bbf;
             }
 /*main*/
