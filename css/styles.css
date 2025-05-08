@@ -40,6 +40,10 @@ p {
     line-height: 1.5;
 }
 a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .logo-link {
@@ -61,6 +65,9 @@ ul {
 }
 section {
     padding: 120px 0 120px 0;
+}
+.hidden{
+    display: none;
 }
 
 /*header*/
@@ -90,13 +97,13 @@ section {
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.5;
-                letter-spacing: 0.02emem;
+                letter-spacing: 0.02em;
                 color: #2e2f42;
                 }
                 header nav li a:hover{
                     color: #404bbf;
                 }
-                header nav li a.active{
+                header nav li a.focus{
                     color: #404bbf;
                 }
     header .contact-info{
@@ -117,10 +124,9 @@ section {
             header .contact-info li a:hover{
                 color: #404bbf;
             }
-            header .contact-info li a.active{
+            header .contact-info li a.focus{
                 color: #404bbf;
             }
-
 /*main*/
 /*hero section*/
 .hero-section{
