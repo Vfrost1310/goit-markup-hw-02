@@ -1,17 +1,17 @@
 /*general*/
-body{
+body {
     background-color: #ffffff;
     margin: 0;
     font-family: "Roboto", sans-serif;
     color: #434455
 }
-h1{
+.main-title {
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 60px;
 }
-h2 {
+.section-title {
     font-weight: 500;
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -20,31 +20,24 @@ h2 {
     text-transform: capitalize;
     color: #2e2f42;
 }
-h3 {
+.card-text {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
 }
-p {
+.base-text {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 24px;
 }
-.button-text{
+.button-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 1.5;
-}
-a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
 }
 .logo-link {
     font-family: "Raleway", sans-serif;
@@ -54,40 +47,43 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 .logo-link .logo-span {
     color: #2e2f42;
 }
-ul {
+.list-style-none {
     list-style: none;
 }
-    header nav li a{
+    .head .navbar .navbar-a{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
     }
-    header nav li a:hover{
+    .head .navbar .navbar-a:hover{
         color: #404bbf;
     }
-    header nav li a:focus{
+    .head .navbar .navbar-a:focus{
         color: #404bbf;
     }
-    header .contact-info{
+    .head .contact-info{
         font-style: normal;
     }
-        header .contact-info li a{
+        .head .contact-info .address-a{
             font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            text-decoration: none;
         }
-        header .contact-info li a:hover{
+        .head .contact-info .address-a:hover{
             color: #404bbf;
         }
-        header .contact-info li a:focus{
+        .head .contact-info .address-a:focus{
             color: #404bbf;
         }
 /*main*/
