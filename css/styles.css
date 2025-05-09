@@ -71,7 +71,7 @@ ul {
     header nav li a:hover{
         color: #404bbf;
     }
-    header nav li a:active{
+    header nav li a:focus{
         color: #404bbf;
     }
     header .contact-info{
@@ -87,7 +87,7 @@ ul {
         header .contact-info li a:hover{
             color: #404bbf;
         }
-        header .contact-info li a:active{
+        header .contact-info li a:focus{
             color: #404bbf;
         }
 /*main*/
